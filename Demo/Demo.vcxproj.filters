@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="原始程式檔">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="標頭檔">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="資源檔">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Action">
+      <UniqueIdentifier>{619a8c1c-e964-46fd-be36-4b6aa48b5035}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{7846d42e-9ac0-4ab6-84fc-0f143f4c3076}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Action\WifiConnectTest">
+      <UniqueIdentifier>{8b99046e-66ef-4031-8028-564427a7058c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Action\LoadDutRequired">
+      <UniqueIdentifier>{c8977032-e47d-46fd-bb43-c7bf8538aacd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Action\WiFiInitialize">
+      <UniqueIdentifier>{27f89230-fcc3-4187-a3a6-cfcb681fcad8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Action\BackdoorTest">
+      <UniqueIdentifier>{ad0ce0da-de98-4435-9ad2-50eddd864a67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Action\GpibController">
+      <UniqueIdentifier>{69f70755-5e8e-428f-adc8-7b81ccb580f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Action\CUSTOMIZE_TEST">
+      <UniqueIdentifier>{92b0edd9-9220-4396-9d1d-9145381e56e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Action\PipeTest">
+      <UniqueIdentifier>{fb902419-c6cf-47bd-a188-31be348612b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Action\QCAMSL">
+      <UniqueIdentifier>{5ad388a4-e6f7-422a-8ab4-364c81eb0013}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="Demo.def">
+      <Filter>原始程式檔</Filter>
+    </None>
+    <None Include="res\Demo.rc2">
+      <Filter>資源檔</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Demo.cpp">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
+    <ClCompile Include="MyClass\WifiConnectTest.cpp">
+      <Filter>Action\WifiConnectTest</Filter>
+    </ClCompile>
+    <ClCompile Include="MyClass\LoadDutRequired.cpp">
+      <Filter>Action\LoadDutRequired</Filter>
+    </ClCompile>
+    <ClCompile Include="CommFunc.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="MyClass\WiFiInitialize.cpp">
+      <Filter>Action\WiFiInitialize</Filter>
+    </ClCompile>
+    <ClCompile Include="MyClass\BackdoorTest.cpp">
+      <Filter>Action\BackdoorTest</Filter>
+    </ClCompile>
+    <ClCompile Include="MyClass\GpibController.cpp">
+      <Filter>Action\GpibController</Filter>
+    </ClCompile>
+    <ClCompile Include="MyClass\CUSTOMIZE_TEST.cpp">
+      <Filter>Action\CUSTOMIZE_TEST</Filter>
+    </ClCompile>
+    <ClCompile Include="MyClass\PipeTest.cpp">
+      <Filter>Action\PipeTest</Filter>
+    </ClCompile>
+    <ClCompile Include="MyClass\QCAMSLTest.cpp">
+      <Filter>Action\QCAMSL</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Demo.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="MyClass\WifiConnectTest.h">
+      <Filter>Action\WifiConnectTest</Filter>
+    </ClInclude>
+    <ClInclude Include="DemoDef.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\MVTDef.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="MyDef.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="MyClass\LoadDutRequired.h">
+      <Filter>Action\LoadDutRequired</Filter>
+    </ClInclude>
+    <ClInclude Include="CommFunc.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\UtilityDllDef.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="MyClass\WiFiInitialize.h">
+      <Filter>Action\WiFiInitialize</Filter>
+    </ClInclude>
+    <ClInclude Include="MyClass\BackdoorTest.h">
+      <Filter>Action\BackdoorTest</Filter>
+    </ClInclude>
+    <ClInclude Include="MyClass\GpibController.h">
+      <Filter>Action\GpibController</Filter>
+    </ClInclude>
+    <ClInclude Include="MyClass\CUSTOMIZE_TEST.h">
+      <Filter>Action\CUSTOMIZE_TEST</Filter>
+    </ClInclude>
+    <ClInclude Include="MyClass\PipeTest.h">
+      <Filter>Action\PipeTest</Filter>
+    </ClInclude>
+    <ClInclude Include="MyClass\QCAMSLTest.h">
+      <Filter>Action\QCAMSL</Filter>
+    </ClInclude>
+    <ClInclude Include="MyClass\QCAMSLDLL.h">
+      <Filter>Action\QCAMSL</Filter>
+    </ClInclude>
+    <ClInclude Include="MyClass\QCAMSL.h">
+      <Filter>Action\QCAMSL</Filter>
+    </ClInclude>
+    <ClInclude Include="MyClass\QLib_Defines.h">
+      <Filter>Action\QCAMSL</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Demo.rc">
+      <Filter>資源檔</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

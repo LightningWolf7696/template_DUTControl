@@ -1,0 +1,20 @@
+; Demo.def : 宣告 DLL 的模組參數。
+
+LIBRARY
+
+EXPORTS
+    ; 明確匯出可置於此
+	CHECK_BARCODE_INFORMATION
+	LOAD_GUI_INFORMATION
+	RestartDutTest
+	CleanToDutParameter
+	SetToDutParameter
+	PreShootToDutParameter
+	LoadDutRequired
+	WiFiInitialize
+	WifiConnectTest
+	BackdoorSendData
+	BackdoorResponse
+	GpibInitialize
+	GpibController
+    CustomizeTest
